@@ -240,7 +240,7 @@ class of all
   width: 100%;
 }
 
-.congratilations, .shake_pic {
+.congratilations, .date, .shake_pic {
   letter-spacing: 10px !important;
   display: flex;
   justify-content: center;
@@ -309,23 +309,21 @@ class of all
     to { opacity: 1; }
 }
 
-
-
-
-/* 
-@media (max-width: 1200px ){
-
+.date{
+        font-size: 17px;
 }
 
-@media (max-width: 992px ){
 
 
-}
-
-@media (max-width: 768px ){
 
 
-} */
+
+
+
+
+
+
+
 
 @media (max-width: 480px ){
 
@@ -345,22 +343,6 @@ class of all
 
 }
 
-/* @media (max-width: 320px ){
-
-}
-
-@media (min-width: 1170px ){
-
-}
-
-@media (min-width: 992px ){
-
-}
-
-@media (min-width: 768px ){
-
-} */
-
 @media (min-width: 480px ){
 
 .letter {
@@ -374,7 +356,3 @@ class of all
 
 
 }
-/* 
-@media (min-width: 320px ){
-
-}   */
