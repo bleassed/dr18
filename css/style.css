@@ -14,7 +14,7 @@ body {
 .confetti-container {
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 90%;
     overflow: hidden;
 }
 
@@ -241,7 +241,7 @@ class of all
 }
 
 .congratilations, .date, .shake_pic {
-  letter-spacing: 10px !important;
+  letter-spacing: 8px !important;
   display: flex;
   justify-content: center;
   z-index: 1;
@@ -252,8 +252,9 @@ class of all
   animation-delay: 1.5s;
   top:30%;
   font-size: 32px;
+  font-family: Libre Baskerville;
   font-weight: bold;
-  letter-spacing: 32px;
+  /* letter-spacing: 32px; */
   position: relative;
 }
 
@@ -313,12 +314,26 @@ class of all
         font-size: 17px;
 }
 
+.about{
+   height: 10%;
+   display: flex;
+   justify-content: flex-end;
+}
 
 
+.address {
+   display: flex;
+   align-items: center;
+   margin-right: 5%;
+   font-family: Libre Baskerville;
+}
 
-
-
-
+.link_bio{
+  margin-left: 4px;
+  margin-right: 4px;
+  text-decoration: none;
+  color: #966c59;
+}
 
 
 
@@ -349,10 +364,8 @@ class of all
   font-size: 35px;
 }
 
-
 .congratilations{
   margin-top: 20px;
 }
-
 
 }
